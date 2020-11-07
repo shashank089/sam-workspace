@@ -1,0 +1,7 @@
+custom_page_json.page_json:
+  path: '/page_json/{siteapikey}/{nodeid}'
+  defaults: 
+    _controller: '\Drupal\custom_page_json\Controller\PageJsonController::pagejson'
+    _title: 'Json data of node'
+  requirements:
+    _permission: 'access content'

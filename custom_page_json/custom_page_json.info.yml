@@ -1,0 +1,4 @@
+name: Custom Page Json 
+description: Module to get page content data in json format
+type: module
+core: 8.x
